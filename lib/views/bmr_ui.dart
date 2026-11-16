@@ -318,13 +318,11 @@ class _BmrUIState extends State<BmrUI> {
                           color: Colors.deepOrange,
                         ),
                       ),
-                      Text(
-                        'kcal/day',
-                        style: TextStyle(
-                          fontSize: MediaQuery.of(context).size.width * 0.045,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
+                      Text('kcal/day',
+                          style: TextStyle(
+                            fontSize: MediaQuery.of(context).size.width * 0.045,
+                            fontWeight: FontWeight.bold,
+                          )),
                     ],
                   ),
                 ),
